@@ -1,3 +1,9 @@
+libkqueue (2.0.2) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- Mark Heily <mark@heily.com>  Sun, 23 Feb 2014 16:04:08 -0500
+
 libkqueue (1.0.4-2) unstable; urgency=low
   * Integrate patches from Matthias Klose (Closes: #640029)
     * Add -Wno-error=unused-result to CFLAGS
