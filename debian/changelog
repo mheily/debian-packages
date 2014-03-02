@@ -1,0 +1,40 @@
+libpthread-workqueue (0.9-1) unstable; urgency=low
+
+  * New upstream version
+  * Switch to using GNU autotools. (Closes: #XXXXXX)
+
+ -- Mark Heily <mark@heily.com>  Thu, 10 Oct 2013 02:25:55 -0400
+
+libpthread-workqueue (0.8-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Mark Heily <mark@heily.com>  Sat, 09 Jul 2011 10:39:08 -0400
+
+libpthread-workqueue (0.7-1) unstable; urgency=low
+
+  * New upstream version.
+      - Prevent deadlocks by implementing the overcommit attribute
+
+ -- Mark Heily <mark@heily.com>  Mon, 13 Jun 2011 21:38:33 -0400
+
+libpthread-workqueue (0.6-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Mark Heily <mark@heily.com>  Fri, 20 May 2011 22:54:42 -0400
+
+libpthread-workqueue (0.5.1-1) unstable; urgency=low
+
+  * New upstream version.
+  * Update control file with new Standards-Version.
+  * Remove -m64 from CFLAGS (Closes: #622798)
+  * Limit architecture to linux-any (Closes: #622799)
+
+ -- Mark Heily <mark@heily.com>  Sat, 07 May 2011 11:57:22 -0400
+
+libpthread-workqueue (0.4.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #616704)
+
+ -- Mark Heily <mark@heily.com>  Sun, 13 Mar 2011 16:22:30 -0500
