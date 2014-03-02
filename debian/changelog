@@ -1,6 +1,6 @@
 libkqueue (2.0.2-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release (closes: #724170, #669572, #729591)
 
  -- Mark Heily <mark@heily.com>  Sun, 23 Feb 2014 16:04:08 -0500
 
