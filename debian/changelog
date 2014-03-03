@@ -1,9 +1,9 @@
 libpthread-workqueue (0.9-1) unstable; urgency=low
 
   * New upstream version
-  * Switch to using GNU autotools. (Closes: #XXXXXX)
+  * Switch to using GNU autotools. (Closes: #724148)
 
- -- Mark Heily <mark@heily.com>  Thu, 10 Oct 2013 02:25:55 -0400
+ -- Mark Heily <mark@heily.com>  Sun, 02 Mar 2014 13:05:09 -0500
 
 libpthread-workqueue (0.8-1) unstable; urgency=low
 

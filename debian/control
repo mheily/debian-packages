@@ -5,12 +5,12 @@ Build-Depends: debhelper (>= 9), dh-autoreconf, autotools-dev
 Standards-Version: 3.9.5.0
 Section: libs
 Homepage: https://github.com/mheily/libpwq/wiki
-Vcs-Svn: git://github.com/mheily/debian-packages.git -b libpwq
+Vcs-Git: git://github.com/mheily/debian-packages.git -b libpthread_workqueue
 
 Package: libpthread-workqueue-dev
 Section: libdevel
 Architecture: linux-any
-Depends: libpthread-workqueue0 (= ${binary:Version})
+Depends: libpthread-workqueue0 (= ${binary:Version}), ${misc:Depends}
 Description: thread pool library (development files)
  The pthread_workqueue library allows you to create one or more workqueues 
  and submit work items for processing. The workqueues are serviced by a 
