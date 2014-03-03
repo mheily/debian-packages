@@ -1,0 +1,13 @@
+libpthread_workqueue.so.0 libpthread-workqueue0 #MINVER#
+ pthread_workqueue_additem_np@Base 0.9
+ pthread_workqueue_attr_destroy_np@Base 0.9
+ pthread_workqueue_attr_getovercommit_np@Base 0.9
+ pthread_workqueue_attr_getqueuepriority_np@Base 0.9
+ pthread_workqueue_attr_init_np@Base 0.9
+ pthread_workqueue_attr_setovercommit_np@Base 0.9
+ pthread_workqueue_attr_setqueuepriority_np@Base 0.9
+ pthread_workqueue_create_np@Base 0.9
+ pthread_workqueue_init_np@Base 0.9
+ pthread_workqueue_peek_np@Base 0.9
+ pthread_workqueue_resume_np@Base 0.9
+ pthread_workqueue_suspend_np@Base 0.9
