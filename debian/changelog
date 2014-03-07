@@ -1,3 +1,9 @@
+libpthread-workqueue (0.9.1-1) unstable; urgency=medium
+
+  * New upstream version that prevents build failures on non-x86 platforms.
+
+ -- Mark Heily <mark@heily.com>   Thu, 06 Mar 2014 23:38:54 -0500
+
 libpthread-workqueue (0.9-1) unstable; urgency=low
 
   * New upstream version
