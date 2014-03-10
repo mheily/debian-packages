@@ -1,3 +1,9 @@
+libkqueue (2.0.3-1) unstable; urgency=low
+
+  * New upstream release (closes: #741009)
+
+ -- Mark Heily <mark@heily.com>  Sun, 09 Mar 2014 20:45:35 -0400
+
 libkqueue (2.0.2-1) unstable; urgency=low
 
   * New upstream release (closes: #724170, #669572, #729591)
