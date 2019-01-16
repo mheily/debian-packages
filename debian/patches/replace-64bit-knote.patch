@@ -1,0 +1,13 @@
+Index: libkqueue-2.0.3/src/common/knote.c
+===================================================================
+--- libkqueue-2.0.3.orig/src/common/knote.c
++++ libkqueue-2.0.3/src/common/knote.c
+@@ -120,7 +120,7 @@ knote_lookup(struct filter *filt, uintpt
+     ent = RB_FIND(knt, &filt->kf_knote, &query);
+     pthread_rwlock_unlock(&filt->kf_knote_mtx);
+
+-#ifdef __x86_64__
++#ifdef __LP64__
+     dbg_printf("id=%lu ent=%p", ident, ent);
+ #else
+     dbg_printf("id=%u ent=%p", ident, ent);
