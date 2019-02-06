@@ -1,3 +1,9 @@
+libkqueue (2.3.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Mark Heily <mark@heily.com>  Wed, 06 Feb 2019 18:14:10 +0000
+
 libkqueue (2.3.0-1) unstable; urgency=medium
 
   * New upstream release

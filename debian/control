@@ -1,6 +1,6 @@
 Source: libkqueue
 Section: libs
-Priority: extra
+Priority: optional
 Maintainer: Mark Heily <mark@heily.com>
 Build-Depends: debhelper (>= 9), dh-autoreconf, autotools-dev
 Standards-Version: 3.9.5.0
