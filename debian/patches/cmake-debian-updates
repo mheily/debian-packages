@@ -38,7 +38,7 @@ Index: libkqueue-2.3.1/CMakeLists.txt
  target_include_directories(kqueue PRIVATE include)
  if(NOT WIN32)
    target_include_directories(kqueue PRIVATE src/common)
-+  target_include_directories(kqueue_static PRIVATE src/common)
++  target_include_directories(kqueue_static PRIVATE src/common include)
  endif()
  
  if(CMAKE_C_COMPILER_ID MATCHES GNU)
