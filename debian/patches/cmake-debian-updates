@@ -4,10 +4,10 @@ Description: Update CMake config for debian package
 Author: Matthew Newton <matthew-git@newtoncomputing.co.uk>
 Last-Update: 2019-01-15
 
-Index: libkqueue-2.3.0/CMakeLists.txt
+Index: libkqueue-2.3.1/CMakeLists.txt
 ===================================================================
---- libkqueue-2.3.0.orig/CMakeLists.txt
-+++ libkqueue-2.3.0/CMakeLists.txt
+--- libkqueue-2.3.1.orig/CMakeLists.txt
++++ libkqueue-2.3.1/CMakeLists.txt
 @@ -15,7 +15,7 @@
  #
  
@@ -16,7 +16,7 @@ Index: libkqueue-2.3.0/CMakeLists.txt
 +cmake_minimum_required(VERSION 3.7.2)
  cmake_policy(SET CMP0063 OLD)
  
- project(libkqueue VERSION 2.3.0 LANGUAGES C)
+ project(libkqueue VERSION 2.3.1 LANGUAGES C)
 @@ -120,22 +120,28 @@ else()
  endif()
  
@@ -38,7 +38,7 @@ Index: libkqueue-2.3.0/CMakeLists.txt
  target_include_directories(kqueue PRIVATE include)
  if(NOT WIN32)
    target_include_directories(kqueue PRIVATE src/common)
-+  target_include_directories(kqueue_static PRIVATE src/common)
++  target_include_directories(kqueue_static PRIVATE src/common include)
  endif()
  
  if(CMAKE_C_COMPILER_ID MATCHES GNU)
