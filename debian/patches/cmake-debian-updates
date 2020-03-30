@@ -8,15 +8,6 @@ Index: libkqueue-2.3.1/CMakeLists.txt
 ===================================================================
 --- libkqueue-2.3.1.orig/CMakeLists.txt
 +++ libkqueue-2.3.1/CMakeLists.txt
-@@ -15,7 +15,7 @@
- #
- 
- # Note: In order for RPM packaging to work correctly version >= 3.8 is required
--cmake_minimum_required(VERSION 3.8.0)
-+cmake_minimum_required(VERSION 3.7.2)
- cmake_policy(SET CMP0063 OLD)
- 
- project(libkqueue VERSION 2.3.1 LANGUAGES C)
 @@ -120,22 +120,28 @@ else()
  endif()
  
