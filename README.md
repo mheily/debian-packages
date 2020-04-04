@@ -10,5 +10,5 @@ They are:
 
 Example of building and uploading a package:
 
-	$ make package upload
+	$ make clean package upload
 	

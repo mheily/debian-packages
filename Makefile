@@ -22,7 +22,7 @@ package: image $(OBJDIR)
 
 upload:
 	debsign $(OBJDIR)/*.changes
-	dput -d mentors-ftp $(OBJDIR)/*.changes
+	dput -d mentors $(OBJDIR)/*.changes
 
 debug:
 	$(DOCKER) bash
