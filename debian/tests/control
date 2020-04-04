@@ -1,0 +1,2 @@
+Tests: kqtest
+Depends: libkqueue0

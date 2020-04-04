@@ -1,0 +1,9 @@
+#!/bin/sh -ex
+
+objdir=$(ls obj-*)
+test -d $objdir
+mv $objdir $objdir.BAK
+rc=0
+$objdir.BAK/test/libkqueue-test || rc=1
+mv $objdir.BAK $objdir
+exit $rc
