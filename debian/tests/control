@@ -1,2 +1,3 @@
 Tests: kqtest
 Depends: libkqueue0
+Restrictions: allow-stderr, build-needed
