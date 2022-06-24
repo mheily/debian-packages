@@ -1,2 +1,5 @@
+*.xz
+libkqueue/
+cmake-build-source/
 obj/
 .idea/
