@@ -6,7 +6,7 @@ Build-Depends: debhelper-compat (= 12), cmake
 Standards-Version: 4.6.0.1
 Vcs-Git: https://github.com/mheily/debian-packages.git -b libkqueue
 Vcs-Browser: https://github.com/mheily/debian-packages/tree/libkqueue
-Homepage: https://github.com/mheily/libkqueue/wiki
+Homepage: https://github.com/mheily/libkqueue/
 
 Package: libkqueue0
 Architecture: any
